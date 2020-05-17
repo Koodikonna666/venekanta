@@ -1,0 +1,122 @@
+body{
+	margin:0;
+	padding:0
+}
+.keskitys{
+	height: 100vh;
+	display: flex;
+	background-image:url("../images/boat.jpg");
+	background-size: cover;
+}
+.taulukko{
+	width:50%;
+	margin: auto;
+	background-color: #f2f2f2;
+	border-radius:10px;
+	padding: 50px;
+}
+
+input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=number]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+h1{
+	text-align:center
+}
+ th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #8841ff;
+  color: white;
+}
+ td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+tr:nth-child(even){background-color: #e3e3e3;}
+
+#veneet{
+	width:100%;
+	border-collapse: collapse;
+	margin-top:50px;
+}
+.painikkeet{
+	margin-top:30px;
+	display:flex
+}
+
+
+.peruuta{
+	background-color: red;
+	border-radius: 5px;
+	padding:10px 20px;
+	color:white;
+	text-decoration: none;
+	 text-transform: uppercase;
+	margin-left:auto;
+	
+}
+.lisaa{
+	background-color: green;
+	border-radius: 5px;
+	padding:11px 25px;
+	color:white;
+	text-decoration: none;
+	border: none;
+	text-transform: uppercase;
+	margin-left:30px;
+}
+
+.lisays-info{
+	color: green;
+	margin-bottom:20px
+}
+
+.varoitus{
+	color: red;
+	margin-bottom:20px
+}
+#hakusana{
+  max-width: 40%;
+  padding: 8px 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.flex{
+	display:flex
+}
+.ab{
+	margin:auto
+}
+.haku-teksti{
+	font-size:24px;
+}
+.center{
+	text-align:center
+}
+.poista{
+	color:red;
+	cursor:pointer;
+	margin-left:20px
+}
+.muuta{
+	text-decoration:none;
+	color:orange
+}
